@@ -95,13 +95,26 @@ nav > ul > li a:hover
 #portfolio > ul
 {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 #portfolio > ul .item
 {
-	width: 100px;
-	height: 100px;
-	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 180px;
+	margin: 15px;
+}
+
+#portfolio > ul .item img
+{
+	width: 150px;
+	height: 150px;
+}
+
+#portfolio > ul .item p
+{
+	text-align: center;
+	margin-top: 5px;
 }
