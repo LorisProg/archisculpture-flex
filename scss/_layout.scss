@@ -1,0 +1,59 @@
+$background-color: #373c48;
+
+header
+{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+nav
+{
+	display: flex;
+	justify-content: center;
+}
+
+nav li, nav h2
+{
+	display: inline;
+}
+
+nav li
+{
+	margin: 0 20px;
+}
+
+.main, .bio
+{
+	height: 640px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.drpdwn-btn
+{
+	position: relative;
+}
+
+.drpdwn-btn a
+{
+	position: relative;
+	z-index: 2;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	right: -25px;
+	top: 15px;
+	padding: 15px;
+	line-height: 35px;
+	background-color: $background-color;
+}
+
+.drpdwn-btn:hover .dropdown-content
+{
+	display: block;
+}
