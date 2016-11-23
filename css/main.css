@@ -153,6 +153,12 @@ p {
   text-decoration: none;
   color: #fff; }
 
+.contact p, .contact a {
+  font-size: 40px; }
+
+.contact a {
+  text-decoration: underline; }
+
 nav > ul {
   list-style: none; }
 
