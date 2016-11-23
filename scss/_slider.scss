@@ -1,0 +1,42 @@
+.slider
+{
+	display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#img-focus
+{
+	max-width: 800px;
+	max-height: 450px;
+	width: auto;
+  height: auto;
+  margin-bottom: 20px; 
+}
+
+#thumbnails li
+{
+	display: inline-block;
+	text-decoration: none;
+}
+
+#thumbnails li:hover
+{
+	cursor: pointer;
+}
+
+#thumbnails img
+{
+	max-width: 120px;
+	max-height: 120px;
+	width: auto;
+  height: auto;
+  margin: 5px;
+  box-shadow: none;
+}
+
+#thumbnails
+{
+	display: flex;
+	align-items: center;
+}
