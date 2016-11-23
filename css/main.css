@@ -61,12 +61,22 @@ nav li, nav h2 {
 nav li {
   margin: 0 20px; }
 
-.main, .bio {
+.main {
   height: 640px;
   display: flex;
   justify-content: center;
   align-items: center; }
 
+.expos {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 30px 60px; }
+
+.expo-item {
+  margin-bottom: 20px; }
+
+/* Menu */
 .drpdwn-btn {
   position: relative; }
 
@@ -126,9 +136,17 @@ body {
 p {
   color: #fff;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 30px; }
+
+.bio p {
   max-width: 450px;
   margin-left: 50px; }
+
+.expos h3 {
+  font-size: 25px; }
+
+.expos h4 {
+  font-size: 20px; }
 
 .logo {
   font-size: 50px;
@@ -138,10 +156,12 @@ p {
 nav > ul {
   list-style: none; }
 
-nav a {
-  font-size: 30px;
+a {
   color: #fff;
   text-decoration: none; }
+
+nav a {
+  font-size: 30px; }
 
 nav a:hover {
   border-bottom: 2px solid #fff; }

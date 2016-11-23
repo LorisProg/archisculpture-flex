@@ -23,13 +23,28 @@ nav li
 	margin: 0 20px;
 }
 
-.main, .bio
+.main
 {
 	height: 640px;
 	display: flex;
 	justify-content: center;
 	align-items: center
 }
+
+.expos
+{
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 30px 60px;
+}
+
+.expo-item
+{
+	margin-bottom: 20px;
+}
+
+/* Menu */
 
 .drpdwn-btn
 {

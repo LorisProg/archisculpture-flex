@@ -24,8 +24,22 @@ p
 	color: $text-color;
 	font-size: 20px;
 	line-height: 30px;
+}
+
+.bio p
+{
 	max-width:450px;
 	margin-left: 50px;
+}
+
+.expos h3
+{
+	font-size: 25px;
+}
+
+.expos h4
+{
+	font-size: 20px;
 }
 
 .logo
@@ -40,11 +54,15 @@ nav>ul
 	list-style: none;
 }
 
+a
+{
+	color: $text-color;
+	text-decoration: none;		
+}
+
 nav a
 {
 	font-size: 30px;
-	color: $text-color;
-	text-decoration: none;
 }
 
 nav a:hover
